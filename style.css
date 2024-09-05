@@ -1,0 +1,131 @@
+/* .background-margin{
+    margin-left: 5%;
+} */
+ .main-word{
+    align-items: center;
+ }
+.background-top1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.background-top2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.intro1, .intro2, .intro3 {
+    width: 500px;
+    border: 15px solid transparent;
+    border-radius: 20px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.intro1-1, .intro2-1, .intro3-1 {
+width: 500px;
+border: 15px solid transparent;
+border-radius: 20px;
+background-color:aquamarine;
+margin-bottom: 20px;
+padding: 15px;
+}
+
+.col {
+    width: 100px;
+    border: 15px solid transparent;
+    border-radius: 20px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+/* .d-grid { 
+    margin-top: 50px;
+} */
+
+.section-1 {
+    background-color: #fff;
+    background-image: url("https://lh4.googleusercontent.com/proxy/i-orjewncb4mFFYbaIFY_6FtA9Dv0S0WpY18ssmCSyvfCLVkPDrg9O2GdoMAhdCylSHXwrsUXl8KKzkxOVg2Fo-qCA_RkGOM-PiFI8527N6GcNg");
+    background-position: center;
+    background-size: cover;
+    background-repeat : no-repeat;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 800px;
+    padding-right: 0;
+    display: flex;
+    padding-top: 10%;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: chartreuse;
+
+}
+
+.img-fluid { 
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1140px;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.contents { 
+    align-items: center;
+}
+
+
+.center {
+justify-content: center;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color:aliceblue
+}
+
+.footer-info{
+    width: 100%;
+    height: 70%;
+    background-color: gainsboro ;
+    margin-top: 50px;
+    align-items: center;
+}
+.d-block {
+    width: 150%;
+    height: 150%;
+}
+
+.d-flex {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: beige;
+    height: 150px;
+    align-items: center;
+    border: 15px solid transparent;
+    border-radius: 20px;
+
+}
+
+.user-interview {
+    font-size: 300px;
+}
+
+.submit{
+    margin-top: 50px;
+    background-color: gray;
+}
+
+/* 
+.btn1{
+    width: 300px;
+} */
