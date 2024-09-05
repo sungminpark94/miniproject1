@@ -12,3 +12,16 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         alert("모든 정보를 입력해주세요.");
     }
 });
+
+const priceSelect=document.getElementById("price-select")
+const priceDisplay=document.getElementById("price-display")
+const PRICE=2900
+let option = 1
+let totalPrice = option*PRICE
+const changePriceDisplay=() => {
+    option = priceSelect.options[priceSelect.selectedIndex].value
+    totalPrice=option*PRICE 
+    let result = totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    priceDisplay.innerText=` ${result} `
+}
+priceSelect.addEventListener("change",changePriceDisplay)
