@@ -12,7 +12,7 @@
 
 .background-top2{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .intro1, .intro2, .intro3 {
@@ -59,7 +59,7 @@ padding: 15px;
     display: flex;
     padding-top: 10%;
 }
-header {
+.header {
     position: fixed;
     width: 100%;
     background-color: chartreuse;
@@ -95,7 +95,7 @@ justify-content: center;
 
 .footer-info{
     width: 100%;
-    height: 70%;
+    height: 150px;
     background-color: gainsboro ;
     margin-top: 50px;
     align-items: center;
@@ -127,4 +127,24 @@ justify-content: center;
     align-items: center;
     border: 15px solid transparent;
     border-radius: 20px;
+}
+#price-display{
+    color: orangered;
+}
+#price-select {
+    color: rgb(202, 202, 202);
+    height: 50px;
+    align-items: center;
+    border: 15px solid transparent;
+    border-radius: 20px;
+}
+
+.review-1, .review-2, .review-3 {
+    width: 400px;
+    border: 15px solid transparent;
+    border-radius: 20px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    padding: 15px;
+    gap: 22px;
 }
